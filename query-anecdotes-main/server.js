@@ -18,7 +18,7 @@ const validator = (request, response, next) => {
   }
 }
 
-console.log("Test")
+console.log("Test 2")
 
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
