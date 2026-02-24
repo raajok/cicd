@@ -13,6 +13,8 @@ const App = () => {
     dispatch(initializeAnecdotes())
   }, [dispatch])
 
+  console.log("Test")
+
   return (
     <div>
       <h2>Anecdotes</h2>
