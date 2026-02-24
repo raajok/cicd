@@ -18,6 +18,8 @@ const validator = (request, response, next) => {
   }
 }
 
+console.log("Test")
+
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
 server.use(validator)
